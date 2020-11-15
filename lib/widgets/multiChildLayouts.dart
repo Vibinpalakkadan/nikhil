@@ -1,5 +1,6 @@
 //multichildlayout wdget with scrolling of GridView widgets
 //import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 class MultiChildLayouts extends StatelessWidget{
   Widget build(BuildContext context){
@@ -8,29 +9,40 @@ class MultiChildLayouts extends StatelessWidget{
       height: MediaQuery.of(context).size.height,  //300,
       color: Colors.grey,
       child: GridView.count(
-        scrollDirection: Axis.horizontal,
-       mainAxisSpacing: 10,
-       crossAxisSpacing: 10,
-       crossAxisCount: 3,
+          scrollDirection: Axis.vertical,
+          //scrollDirection: Axis.horizontal,
+          mainAxisSpacing: 10,
+          crossAxisSpacing: 10,
+          crossAxisCount: 1,
        //reverse: true,
-           padding: EdgeInsets.all(15),
+          padding: EdgeInsets.all(10),
 
         children: <Widget> [
           Container(
               color: Colors.blue,
-              child: Center(child: Text("One")),
+              //child: Center(child: Text("One")),
+              width: MediaQuery.of(context).size.width,
+              height:MediaQuery.of(context).size.height,
+              child: Image.asset("assets/car2.jpg"),
           ),
+         // Container(
+           // color: Colors.white,
+            //child: Center(child: Text("click to Know")),
+          //),
           Container(
               color: Colors.cyan,
-              child: Center(child: Text("Two")),
+              //child: Center(child: Text("Two")),
+              child: Image.asset("assets/car1.jpg"),
+
           ),
           Container(
             color: Colors.indigo,
-            child: Center(child: Text("Three")),
+            //child: Center(child: Text("Three")),
+            child: Image.asset("assets/car3.jpg"),
          ),
           Container(
             color: Colors.red,
-            child: Center(child: Text("Four")),
+            child: Center(child: Image.asset("assets/car4.png")),
           ),
         ]
       ),

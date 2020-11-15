@@ -3,7 +3,10 @@
 
 
 import 'package:flutter/material.dart';
-import './widgets/buttonSamples.dart';
+import 'package:mallu_developer_first_app/widgets/singleChildLayouts.dart';
+//import './widgets/buttonSamples.dart';
+import './widgets/multiChildLayouts.dart';
+//import './widgets/stackWidget.dart';
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -12,8 +15,12 @@ class App extends StatelessWidget {
       home: Scaffold(
         body: ListView(
           children: [
-            ButtonSamples(),
-            ButtonSamples(),
+            //SingleChildLayouts(),
+            //ButtonSamples(),
+            //ButtonSamples(),
+            MultiChildLayouts(),
+            //StackWidget(),
+            MultiChildLayouts(),
           ], //children
         ),
 
@@ -21,7 +28,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.red,
           elevation: 10, //3D effect
-          title: Text("Mallu Developer App"),
+          title: Text("Care CarS App"),
           //leading: IconButton(
           //  onPressed: () {
           //  print("Leading button clicked");
@@ -31,10 +38,10 @@ class App extends StatelessWidget {
         ),
         floatingActionButton: FlatButton(
           onPressed: (){
-            print("Floating Action Button clicked");
+            print("Calling to Customer Care");
           },
-          child: Icon(Icons.add_a_photo),
-          color: Colors.red,
+          child: Icon(Icons.call),
+          color: Colors.cyanAccent,
           shape: CircleBorder(),
           padding: EdgeInsets.all(10),
         ),

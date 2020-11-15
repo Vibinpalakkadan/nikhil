@@ -8,7 +8,7 @@ class BasicWidget extends StatelessWidget{
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.all(40),
       decoration: BoxDecoration(
-        color: Colors.indigo ,
+        color: Colors.white70 ,
         border: Border.all(
           color: Colors.red,
           width: 2,

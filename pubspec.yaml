@@ -52,6 +52,11 @@ flutter:
   assets:
     - assets/pic1.jpg
     - assets/pic2.jpg
+    - assets/car1.jpg
+    - assets/car2.jpg
+    - assets/car3.jpg
+    - assets/car4.png
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
