@@ -6,7 +6,7 @@ class ButtonSamples extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Center(C:\Users\Nikhz\AndroidStudioProjects\flutter_app_1
+      child: Center(
         child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
