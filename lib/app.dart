@@ -1,7 +1,6 @@
 //app.dart
 //my "CAR"t  project
 
-
 import 'package:flutter/material.dart';
 import 'package:mallu_developer_first_app/widgets/singleChildLayouts.dart';
 //import './widgets/buttonSamples.dart';
