@@ -1,10 +1,11 @@
 //app.dart
-//my "CAR"t  project
+//my "CAR"t  project...
 
 import 'package:flutter/material.dart';
 //import 'package:mallu_developer_first_app/widgets/singleChildLayouts.dart';
 //import './widgets/buttonSamples.dart';
 import './widgets/multiChildLayouts.dart';
+
 //import './widgets/stackWidget.dart';
 class App extends StatelessWidget {
   @override
@@ -22,7 +23,6 @@ class App extends StatelessWidget {
             MultiChildLayouts(),
           ], //children
         ),
-
         backgroundColor: Colors.white70,
         appBar: AppBar(
           backgroundColor: Colors.red,
@@ -36,7 +36,7 @@ class App extends StatelessWidget {
           //  ),
         ),
         floatingActionButton: FlatButton(
-          onPressed: (){
+          onPressed: () {
             print("Calling to Customer Care");
           },
           child: Icon(Icons.call),
@@ -54,7 +54,7 @@ class App extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title:  Text("Favourites"),
+                title: Text("Favourites"),
                 subtitle: Text("Click to Go to favourite page"),
                 onTap: () {
                   print("Go to favourite page");
@@ -66,7 +66,7 @@ class App extends StatelessWidget {
                 trailing: Icon(Icons.arrow_forward),
               ),
               ListTile(
-                title:  Text("Sedan Models"),
+                title: Text("Sedan Models"),
                 subtitle: Text("Click to Go to Sedan Model Cars"),
                 onTap: () {
                   print("Go to Sedan Model Cars");
@@ -78,7 +78,7 @@ class App extends StatelessWidget {
                 trailing: Icon(Icons.arrow_forward),
               ),
               ListTile(
-                title:  Text("Hatch back model"),
+                title: Text("Hatch back model"),
                 subtitle: Text("Click to Go to Hatch back Model Cars"),
                 onTap: () {
                   print("Go to Hatch Model Cars");
@@ -90,7 +90,7 @@ class App extends StatelessWidget {
                 trailing: Icon(Icons.arrow_forward),
               ),
               ListTile(
-                title:  Text("We can Wash"),
+                title: Text("We can Wash"),
                 subtitle: Text("Book to Wash your Car"),
                 onTap: () {
                   print("Car Wash Booking");
@@ -114,7 +114,7 @@ class App extends StatelessWidget {
                 ),
               ),
               ListTile(
-                title:  Text("Profile"),
+                title: Text("Profile"),
                 subtitle: Text("Click to Go to Profile"),
                 onTap: () {
                   print("Go to Profile page");
@@ -126,7 +126,7 @@ class App extends StatelessWidget {
                 trailing: Icon(Icons.arrow_forward),
               ),
               ListTile(
-                title:  Text("Accounts"),
+                title: Text("Accounts"),
                 subtitle: Text("Click to Go to Accounts"),
                 onTap: () {
                   print("Go to Accounts");
@@ -138,7 +138,7 @@ class App extends StatelessWidget {
                 trailing: Icon(Icons.arrow_forward),
               ),
               ListTile(
-                title:  Text("Settings"),
+                title: Text("Settings"),
                 subtitle: Text("Click to Go to Settings"),
                 onTap: () {
                   print("Go to Settings");
