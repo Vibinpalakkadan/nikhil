@@ -2,11 +2,12 @@
 //import 'package:flutter/cupertino.dart';
 
 import 'package:flutter/material.dart';
-class MultiChildLayouts extends StatelessWidget{
-  Widget build(BuildContext context){
+
+class MultiChildLayouts extends StatelessWidget {
+  Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width,     //300,
-      height: MediaQuery.of(context).size.height,  //300,
+      width: MediaQuery.of(context).size.width, //300,
+      height: MediaQuery.of(context).size.height, //300,
       color: Colors.grey,
       child: GridView.count(
           scrollDirection: Axis.vertical,
@@ -14,38 +15,35 @@ class MultiChildLayouts extends StatelessWidget{
           mainAxisSpacing: 10,
           crossAxisSpacing: 10,
           crossAxisCount: 1,
-       //reverse: true,
+          //reverse: true,
           padding: EdgeInsets.all(10),
-
-        children: <Widget> [
-          Container(
-              color: Colors.blue,
+          children: <Widget>[
+            Container(
+              color: Colors.white,
               //child: Center(child: Text("One")),
               width: MediaQuery.of(context).size.width,
-              height:MediaQuery.of(context).size.height,
+              height: MediaQuery.of(context).size.height,
               child: Image.asset("assets/car2.jpg"),
-          ),
-         // Container(
-           // color: Colors.white,
+            ),
+            // Container(
+            // color: Colors.white,
             //child: Center(child: Text("click to Know")),
-          //),
-          Container(
-              color: Colors.cyan,
+            //),
+            Container(
+              color: Colors.white,
               //child: Center(child: Text("Two")),
               child: Image.asset("assets/car1.jpg"),
-
-          ),
-          Container(
-            color: Colors.indigo,
-            //child: Center(child: Text("Three")),
-            child: Image.asset("assets/car3.jpg"),
-         ),
-          Container(
-            color: Colors.red,
-            child: Center(child: Image.asset("assets/car4.png")),
-          ),
-        ]
-      ),
+            ),
+            Container(
+              color: Colors.white,
+              //child: Center(child: Text("Three")),
+              child: Image.asset("assets/car3.jpg"),
+            ),
+            Container(
+              color: Colors.white,
+              child: Center(child: Image.asset("assets/car4.png")),
+            ),
+          ]),
     );
   }
 }

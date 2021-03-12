@@ -1,5 +1,5 @@
 //app.dart
-//my "CAR"t  project...
+//my CARt  project
 
 import 'package:flutter/material.dart';
 //import 'package:mallu_developer_first_app/widgets/singleChildLayouts.dart';
@@ -11,7 +11,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Mallu Developer",
+      title: "Care Care App",
       home: Scaffold(
         body: ListView(
           children: [
@@ -25,9 +25,9 @@ class App extends StatelessWidget {
         ),
         backgroundColor: Colors.white70,
         appBar: AppBar(
-          backgroundColor: Colors.red,
+          backgroundColor: Colors.lightBlue,
           elevation: 10, //3D effect
-          title: Text("Care CarS App"),
+          title: Text("My CARt"),
           //leading: IconButton(
           //  onPressed: () {
           //  print("Leading button clicked");
