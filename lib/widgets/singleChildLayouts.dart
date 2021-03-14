@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SingleChildLayouts extends StatelessWidget{
+class SingleChildLayouts extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Align(
@@ -8,5 +8,4 @@ class SingleChildLayouts extends StatelessWidget{
       alignment: Alignment.bottomCenter,
     );
   }
-
 }

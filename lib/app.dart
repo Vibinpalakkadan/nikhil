@@ -1,5 +1,5 @@
 //app.dart
-//my CARt  project
+//my CARt project
 
 import 'package:flutter/material.dart';
 //import 'package:mallu_developer_first_app/widgets/singleChildLayouts.dart';
@@ -27,7 +27,7 @@ class App extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.lightBlue,
           elevation: 10, //3D effect
-          title: Text("My CARt"),
+          title: Text(" My CARt"),
           //leading: IconButton(
           //  onPressed: () {
           //  print("Leading button clicked");

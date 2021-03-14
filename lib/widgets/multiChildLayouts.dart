@@ -1,4 +1,4 @@
-//multichildlayout wdget with scrolling of GridView widgets
+//multichildlayout wdget with scrolling of GridView widgets....
 //import 'package:flutter/cupertino.dart';
 
 import 'package:flutter/material.dart';
@@ -12,11 +12,11 @@ class MultiChildLayouts extends StatelessWidget {
       child: GridView.count(
           scrollDirection: Axis.vertical,
           //scrollDirection: Axis.horizontal,
-          mainAxisSpacing: 10,
-          crossAxisSpacing: 10,
+          mainAxisSpacing: 2,
+          crossAxisSpacing: 2,
           crossAxisCount: 1,
           //reverse: true,
-          padding: EdgeInsets.all(10),
+          padding: EdgeInsets.all(5),
           children: <Widget>[
             Container(
               color: Colors.white,

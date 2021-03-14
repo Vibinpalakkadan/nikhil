@@ -1,10 +1,11 @@
 //stackwidget and importing images to your widgets from the project file and network
 import 'package:flutter/material.dart';
+
 class StackWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child:Container(
+      child: Container(
         width: 300,
         height: 500,
         color: Colors.black12,
@@ -12,8 +13,7 @@ class StackWidget extends StatelessWidget {
           //overflow: Overflow.clip,
           overflow: Overflow.visible,
           alignment: Alignment.topLeft,
-          children: <Widget> [
-
+          children: <Widget>[
             Positioned(
               right: 100,
               bottom: 200,
@@ -44,12 +44,11 @@ class StackWidget extends StatelessWidget {
                 height: 300,
                 color: Colors.green,
                 child: Image.network(
-                    "https://wallpapercave.com/wp/gKHWym0.jpg",
-                    fit:BoxFit.cover,
-                ), //image from internet 
+                  "https://wallpapercave.com/wp/gKHWym0.jpg",
+                  fit: BoxFit.cover,
+                ), //image from internet
               ),
-              ),
-
+            ),
           ],
         ),
       ),
